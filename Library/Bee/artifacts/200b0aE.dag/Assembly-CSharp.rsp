@@ -356,11 +356,8 @@
 -analyzer:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scenes/Script/BallCollisonManager.cs"
 "Assets/Scenes/Script/BallManager.cs"
-"Assets/Scenes/Script/BaseToVolley.cs"
 "Assets/Scenes/Script/CameraMoving.cs"
-"Assets/Scenes/Script/GolfToTennis.cs"
-"Assets/Scenes/Script/TennisToBase.cs"
-"Assets/Scenes/Script/VolleyToSoccer.cs"
+"Assets/Scenes/Script/GameInterface.cs"
 -langversion:9.0
 /deterministic
 /optimize+

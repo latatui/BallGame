@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6983288533070245324}
   - component: {fileID: 8240620650046043906}
   - component: {fileID: 7321842306729906763}
-  - component: {fileID: 7408027973795281412}
+  - component: {fileID: 6352724771030860485}
   m_Layer: 0
   m_Name: Golf
   m_TagString: Golf
@@ -135,7 +135,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7408027973795281412
+--- !u!114 &6352724771030860485
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,7 +144,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2099316281507514234}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52749df63f8e1435b819cf1f464d83e5, type: 3}
+  m_Script: {fileID: 11500000, guid: f134fc28d755444a8945da22bc267594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tennisBallPrefab: {fileID: 4350874406377604858, guid: db6cb79803d99de41ae15f15a875d281, type: 3}
+  baseballBallPrefab: {fileID: 3169090002416453430, guid: 9b087ad3ee72dbd408584ba96bc2cc57, type: 3}
+  footballBallPrefab: {fileID: 3978156976444542998, guid: a8b1655a90145094bbbfdb3ddd350367, type: 3}
+  volleyballBallPrefab: {fileID: 89156558108113759, guid: 3384463bb3a16c049bd57c0306467a4c, type: 3}
+  soccerBallPrefab: {fileID: 7074948992791993279, guid: dc9c860c0461534488018ebede9b5f12, type: 3}
+  basketballBallPrefab: {fileID: 7441440908871300343, guid: 052f0d9a551166b458c44593c6566808, type: 3}
+  golfBallPrefab: {fileID: 2099316281507514234}
