@@ -35,10 +35,20 @@ public class BallManager : MonoBehaviour
         // 공이 떨어지는 중이면 조작 불가
         if (isFalling || currentBall == null) return;
 
-        // 공 이동 (WASD 입력 처리)
-        float moveZ = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime; // W, S
-        float moveX = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime; // A, D
-        currentBall.transform.position += new Vector3(moveX, 0, moveZ);
+        // 카메라 기준 이동 방향 계산
+        Transform cameraTransform = Camera.main.transform;
+        Vector3 cameraForward = new Vector3(cameraTransform.forward.x, 0, cameraTransform.forward.z).normalized; // Y축 제외
+        Vector3 cameraRight = new Vector3(cameraTransform.right.x, 0, cameraTransform.right.z).normalized;       // Y축 제외
+
+        // WASD 입력 처리
+        float moveZ = Input.GetAxis("Vertical"); // W, S
+        float moveX = Input.GetAxis("Horizontal"); // A, D
+
+        // 입력 방향을 카메라 방향 기준으로 변환
+        Vector3 moveDirection = (cameraForward * moveZ + cameraRight * moveX).normalized;
+
+        // 공 이동
+        currentBall.transform.position += moveDirection * moveSpeed * Time.deltaTime;
 
         // 이동 제한 (경계를 벗어나지 않도록 제한)
         currentBall.transform.position = new Vector3(
@@ -53,6 +63,7 @@ public class BallManager : MonoBehaviour
             StartFalling();
         }
     }
+
 
     private void StartFalling()
     {

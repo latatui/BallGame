@@ -124,7 +124,6 @@
 -define:MODULE_PARTICLE_SYSTEM_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -256,10 +255,10 @@
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
--r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"

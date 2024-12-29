@@ -26,16 +26,16 @@ public class CubeCameraController : MonoBehaviour
     {
         if (cube == null) return;
 
-        // 스페이스바 입력 - 왼쪽으로 회전
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            RotateLeft();
-        }
-
         // F 키 입력 - 위쪽 보기 전환
         if (Input.GetKeyDown(KeyCode.F))
         {
             ToggleTopView();
+        }
+
+        // 스페이스바 입력 - 공 떨어뜨리기
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            DropBallAndRotateCamera();
         }
 
         // 현재 위치 및 회전을 목표로 부드럽게 이동
@@ -43,20 +43,27 @@ public class CubeCameraController : MonoBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * transitionSpeed);
     }
 
-    // 왼쪽으로 회전
-    private void RotateLeft()
-    {
-        if (!isTopView)
-        {
-            currentSideIndex = (currentSideIndex + 1) % 4; // Y축 회전 방향 유지
-            UpdateTargetPositionAndRotation();
-        }
-    }
-
     // 위쪽 보기 전환
     private void ToggleTopView()
     {
         isTopView = !isTopView;
+        UpdateTargetPositionAndRotation();
+    }
+
+    // 공을 떨어뜨리고 카메라를 회전
+    private void DropBallAndRotateCamera()
+    {
+        // 공 떨어뜨리기 (관련 로직 연결 가능)
+        Debug.Log("공을 떨어뜨렸습니다.");
+
+        // 위쪽 보기 상태인지 확인
+        if (isTopView)
+        {
+            isTopView = false; // 위쪽 보기 상태 해제
+        }
+
+        // 항상 왼쪽으로 회전
+        currentSideIndex = (currentSideIndex + 1) % 4;
         UpdateTargetPositionAndRotation();
     }
 

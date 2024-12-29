@@ -117,7 +117,6 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
--r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -318,7 +317,6 @@
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
--r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
@@ -329,6 +327,7 @@
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
 -r:"/Users/sanggi/Desktop/상기폴더/2022.3.25f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.ref.dll"

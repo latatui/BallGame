@@ -619,7 +619,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 1760351934}
   nextBallPoint: {fileID: 940975969}
   moveSpeed: 50
-  boundary: 4.8
+  boundary: 4.5
   fixedY: 4
 --- !u!114 &210741791
 MonoBehaviour:
